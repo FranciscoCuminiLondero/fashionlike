@@ -1,0 +1,67 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* General */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Styles */
+.svg-container {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px; 
+    left: 70px;
+    width: 15rem;
+}
+
+/* Title Styles */
+.title {
+    margin-top: 49px;
+    padding-left: 30px;
+}
+
+.title h1 {
+    color: #312F2F;
+    font-family: Lato;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title p {
+    color: #939090;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* User Data Styles */
+.user-data {
+    margin-top: 21px;
+}
+
+.user-data input {
+    margin: 10px 30px;
+    width: 260px;
+    height: 34px;
+    border: 0.25px solid #312f2f49;
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.279);
+    color: #312F2F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 5px 10px;
+}
+

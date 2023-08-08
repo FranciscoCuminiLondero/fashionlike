@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Like</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Google Font - Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat+Alternates:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+
+        <div class="svg-container">
+            <svg viewBox="0 0 320 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M153.5 183.628C77.1107 207.511 29.1667 166.263 0 160.005V19H320V183.628C282.167 120.088 260.5 150.175 153.5 183.628Z"
+                    fill="url(#paint0_linear_5_38)" fill-opacity="0.5" />
+                <path
+                    d="M166.5 183.628C242.889 207.511 290.833 166.263 320 160.005V19H0V183.628C37.8333 120.088 59.5 150.175 166.5 183.628Z"
+                    fill="url(#paint1_linear_5_38)" fill-opacity="0.5" />
+                <path
+                    d="M153.5 164.408C77.1107 188.259 29.1667 147.066 0 140.816V0H320V164.408C282.167 100.952 260.5 131 153.5 164.408Z"
+                    fill="url(#paint2_linear_5_38)" />
+                <defs>
+                    <linearGradient id="paint0_linear_5_38" x1="320" y1="125.142" x2="1.28556e-07" y2="125.142"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FAE183" />
+                        <stop offset="0.5" stop-color="#F2A292" />
+                        <stop offset="1" stop-color="#E963A0" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_5_38" x1="-7.64225e-05" y1="125.142" x2="320" y2="125.142"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FAE183" />
+                        <stop offset="0.5" stop-color="#F2A292" />
+                        <stop offset="1" stop-color="#E963A0" />
+                    </linearGradient>
+                    <linearGradient id="paint2_linear_5_38" x1="320" y1="106" x2="1.28556e-07" y2="106"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FAE183" />
+                        <stop offset="0.5" stop-color="white" />
+                        <stop offset="1" stop-color="#E963A0" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="logo-container">
+            <img src="./img/logo.png" alt="Logo Fashion Like" class="logo">
+        </div>
+    </header>
+
+    <div>
+        <div class="title">
+            <h1>Hola!</h1>
+            <p>Iniciar sesión en tu cuenta</p>
+        </div>
+        <div class="user-data">
+            <input type="email" placeholder="usuario@email.com">
+            <input type="password" placeholder="********">
+            <p>¿Olvidaste tu contraseña?</p>
+            <input id="button-login" type="button" value="Iniciar Sesión">
+        </div>
+        <div>
+            <p>¿No tienes una cuenta? <a href="#">Crear</a></p>
+        </div>
+    </div>
+
 </body>
+
 </html>
